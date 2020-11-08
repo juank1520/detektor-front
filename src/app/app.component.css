@@ -1,0 +1,19 @@
+table {
+    width: 100%;
+    margin: 10px;
+}
+
+.filter{
+    display: flex;
+    margin:10px;
+}
+
+.buttons-container{
+    display: flex;
+    margin: 10px;
+}
+
+.buttons-container > div{
+    margin-right: 10px;
+}
+

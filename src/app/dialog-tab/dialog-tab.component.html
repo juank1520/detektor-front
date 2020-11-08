@@ -1,0 +1,27 @@
+<form class="example-form" [formGroup]='form'>
+    <mat-form-field class="example-full-width" *ngIf="!data.isNew">
+        <mat-label>Motivo</mat-label>
+        <input matInput  formControlName='motive'>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Descripción</mat-label>
+        <textarea matInput formControlName='des_motivo'></textarea>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Estado</mat-label>
+        <textarea matInput  formControlName='estado'></textarea>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Tipo</mat-label>
+        <textarea matInput formControlName='tipo'></textarea>
+    </mat-form-field>
+
+    <div class="button-row">
+        <button type="button" mat-raised-button (click)=saveMotive()>Guardar</button>
+        <button type="button" mat-raised-button (click)='onNoClick()'>Cancelar</button>
+    </div>
+</form>
+

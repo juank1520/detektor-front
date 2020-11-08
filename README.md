@@ -1,4 +1,9 @@
 # CrudFront
+Requisitos
+Tener curl instalado
+```console
+detektor@UbSwDevDtk:~$ sudo apt install curl
+```
 
 1. Instalar npm y Node
 ```console
